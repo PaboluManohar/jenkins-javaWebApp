@@ -77,7 +77,7 @@ This guide walks you through setting up a Jenkins CI/CD pipeline to deploy a Mav
 
    - **Build Steps**:
      - Add a build step and select `Invoke top-level Maven targets`.
-     - Set the Maven version and goals (e.g., `clean install`).
+     - Set the Maven version and goals (e.g., `clean install` or any goals).
 
    - **Post-build Actions**:
      - Add a post-build action and select `Deploy war/ear to a container`.
